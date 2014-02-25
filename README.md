@@ -8,4 +8,7 @@ Top level directory refers to the language used. Inside these directories will b
 ## Ruby
 
 ### 1
-A simple version that treats the doors as integers and prints out the simple win percentage as a formatted string.
+* The doors are modelled as integers and stored in arrays.
+* Uses Array#sample to select random elements and keeps track of various choices to sample from the correct subsets.
+* Fully automated, the only interaction possible is specifying is the number of trial which default to 100 but can be set using the first commandline argument (ARGV[0]).
+* After running the specified number of trials, the program prints out the simple win percentages as a formatted string.
